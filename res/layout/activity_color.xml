@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:orientation="vertical"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        >  
+ 
+       <Button 
+            android:id="@+id/button_select2"  
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:text="select"     
+         
+           />
+    
+       <SeekBar 
+        android:id="@+id/seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+       <LinearLayout    
+        android:orientation="horizontal"    
+        android:layout_width="fill_parent"    
+        android:layout_height="wrap_content"    
+        android:baselineAligned="false"  
+        >
+        
+               
+	        <ImageView  
+	            android:id="@+id/image_original2"  
+	            android:layout_width="wrap_content"   
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds = "true"
+	            android:maxHeight = "400.0dip"
+	            android:maxWidth = "150.0dip"   
+	         />
+	        <ImageView  
+	            android:id="@+id/image_filtered"  
+	            android:layout_width="wrap_content"   
+	            android:layout_height="wrap_content" 
+	            android:adjustViewBounds = "true"
+	            android:maxHeight = "400.0dip"
+	            android:maxWidth = "150.0dip"     
+	         />  
+
+	   </LinearLayout>
+</LinearLayout>  
